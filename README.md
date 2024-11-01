@@ -1,5 +1,6 @@
-# 📊 MASSACRE-TG
+# 🎫 Coding Services SEND DM 🎫
 
+# 📊 MASSACRE-TG
 
 Telegram Reporter es una herramienta avanzada para realizar reportes automatizados en Telegram, utilizando múltiples sesiones y proxies para mejorar la eficiencia y evitar bloqueos. Esta herramienta es ideal para manejar grandes volúmenes de reportes mientras se minimizan los riesgos de restricciones y bloqueos por parte de Telegram.
 
@@ -56,21 +57,6 @@ Telegram Reporter implementa un sistema basado en las siguientes lógicas:
    ```sh
    pip install -r requirements.txt
    ```
-
-## ▶️ Uso
-
-1. 🗂️ **Coloca las sesiones en el archivo `vars.txt`**.
-   - Este archivo debe contener las sesiones serializadas utilizando `pickle`. Cada sesión representa una cuenta de Telegram con las credenciales necesarias.
-
-2. ▶️ **Ejecuta el script**:
-
-   ```sh
-   python telegram_reporter.py
-   ```
-
-3. 📝 **Proporciona la información solicitada**:
-   - Durante la ejecución, se te pedirá ingresar los enlaces a los usuarios, grupos o canales a los que deseas reportar, el número de reportes y el delay entre cada uno.
-
 
 ## 🛠️ Contribuciones
 
