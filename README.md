@@ -75,6 +75,6 @@ Permite gestionar sesiones de Telegram y reportar usuarios o mensajes de canales
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
     <img src="img/term.png" alt="MASSACRE_SESSION" width="550" height="600">
-    <img src="img/tabla.png" alt="MASSACRE_SESSION2" width="550" height="600">
+    <img src="img/tabla.png" alt="MASSACRE_SESSION2" width="450" height="500">
 </div> <br><br> 
 
