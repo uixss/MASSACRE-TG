@@ -11,14 +11,10 @@
 | 🕒 Reportes y registros              | Guarda detalles de los envíos exitosos y errores en archivos JSON y logs.     |
 <br>
 <br>
-
 <div style="display: flex; justify-content: space-between; align-items: center;">
     <img src="img/letter.png" alt="MASSACRE_SMTP_1" width="400" height="600">
     <img src="img/imbox.png" alt="MASSACRE_SMTP_2" width="550" height="600">
-</div> <br>
-
-
-
+</div> <br> <br> <br>
 🌟 Características Destacadas
 
     ⚡ Concurrente
@@ -40,16 +36,8 @@
     🗃️ Gestión de Reportes Completa
     Almacena registros detallados de cada envío, lo que facilita el análisis posterior. 
     incluyendo información del servidor utilizado, destinatarios, mensajes y resultados, 
-
-🚀 Beneficios
-
-    Mayor eficiencia: Procesa múltiples tareas simultáneamente y con menor tiempo de espera.
-    Flexibilidad: Configuración personalizable para adaptarse a cualquier tipo de envío masivo.
-    Confiabilidad: Verificación exhaustiva de servidores SMTP para garantizar la mejor experiencia posible.
-    Transparencia: Registros claros y detallados para monitorear el desempeño del sistema.
 <br>
 <br>
-
 # 📊 SESSIONS
 Permite gestionar sesiones de Telegram y reportar usuarios o mensajes de canales automáticamente utilizando la biblioteca **Telethon**. Es ideal para automatizar tareas de reportes masivos con múltiples sesiones. 🔧
 
