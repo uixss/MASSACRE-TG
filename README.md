@@ -1,43 +1,66 @@
 # 🎫 Coding Services SEND DM 🎫
 
-# 📧 MASSACRE TG SMTP
+# 📧 MASSACRE TG SMTP 
+## 🌟 Características Principales
 
-| 🚩 Funcionalidad                     | 📋 Descripción                                                                 |
-|-------------------------------------|-------------------------------------------------------------------------------|
-| 🔍 Verificación SMTP                | Comprueba credenciales y conectividad de servidores SMTP.                     |
-| 🗂️ Agrupación de servidores         | Agrupa servidores válidos en lotes para facilitar la configuración.           |
-| ✉️ Envío de correos dinámico         | Genera y envía mensajes personalizados utilizando múltiples servidores.       |
-| 📂 Gestión de archivos              | Crea carpetas y copia archivos adicionales para cada lote SMTP.               |
-| 🕒 Reportes y registros              | Guarda detalles de los envíos exitosos y errores en archivos JSON y logs.     |
+### 🚀 Funcionalidades Clave
+- **🔍 Verificación SMTP**  
+  Comprueba credenciales y conectividad de servidores SMTP.  
+- **🗂️ Agrupación de servidores**  
+  Clasifica servidores válidos en lotes para facilitar la configuración.  
+- **✉️ Envío de correos dinámico**  
+  Genera y envía mensajes personalizados utilizando múltiples servidores SMTP con encabezados y pies de página aleatorios.  
+- **📂 Gestión de archivos**  
+  Crea carpetas y copia archivos adicionales para cada lote SMTP.  
+- **📈 Escalabilidad**  
+  Diseñado para manejar grandes volúmenes de servidores SMTP y destinatarios.  
+- **🔄 Rotación inteligente de servidores**  
+  Gestiona una lista rotativa de servidores SMTP para evitar bloqueos o saturaciones.  
+- **🗃️ Gestión de reportes completa**  
+  Almacena registros detallados de cada envío para análisis posterior.
+
+---
+
+## 📧 Ejemplo de Envío Dinámico
+
+El mensaje se genera dinámicamente combinando encabezados, cuerpo estático y pies de página personalizados:
+
+### Código de Ejemplo
+```python
+import random
+
+# Lista de encabezados
+headers = [
+    "Dear Telegram Compliance Monitoring Team,",
+    "Hello Telegram Policy Team,",
+    "To the Telegram Trust Enforcement Team,",
+]
+
+# Lista de pies de página
+footers = [
+    "Warmly,",
+    "With heartfelt thanks,",
+    "Ever grateful,",
+]
+
+# Mensaje estático
+static_message = "We have detected irregular activity in the following account."
+details = "Account ID: 123456 | IP Address: 192.168.0.1"
+
+# Generación dinámica del mensaje
+header = random.choice(headers)
+footer = random.choice(footers)
+message = f"""{header}\n\n{static_message}\n\n{details}\n\n{footer}\nBye"""
+
+```
 <br>
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
     <img src="img/letter.png" alt="MASSACRE_SMTP_1" width="400" height="600">
     <img src="img/imbox.png" alt="MASSACRE_SMTP_2" width="550" height="600">
 </div> <br> <br> 
-🌟 Características Destacadas
-
-    ⚡ Concurrente
-    Utiliza un enfoque multihilo para procesar varios servidores SMTP al mismo tiempo,
-    aumentando significativamente la velocidad de operación. 
-
-    🧩 Personalización Avanzada
-    Genera mensajes dinámicos con detalles específicos de usuarios o entidades, 
-    lo que asegura que cada correo sea relevante y dirigido. 
-
-    🔄 Rotación Inteligente de Servidores
-    Maneja una lista rotativa de servidores SMTP, evitando bloqueos o saturaciones. 
-    Además, administra automáticamente una lista negra de servidores problemáticos. 
-
-    📈 Soporte para Escalabilidad
-    Diseñado para trabajar con grandes volúmenes de servidores SMTP y destinatarios, 
-    manteniendo el rendimiento y la fiabilidad. 
-
-    🗃️ Gestión de Reportes Completa
-    Almacena registros detallados de cada envío, lo que facilita el análisis posterior. 
-    incluyendo información del servidor utilizado, destinatarios, mensajes y resultados, 
 <br>
-<br>
+
 # 📊 SESSIONS
 
 Permite gestionar sesiones de Telegram y reportar usuarios o mensajes de canales automáticamente utilizando la biblioteca **Telethon**. Es ideal para automatizar tareas de reportes masivos con múltiples sesiones. 🔧
