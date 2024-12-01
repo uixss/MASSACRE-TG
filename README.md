@@ -36,8 +36,6 @@ Envio de reportes en masa al email@soporte
 - **🗃️ Gestión de reportes completa**  
   Almacena registros detallados de cada envío para análisis posterior.
 
----
-
 📧 El mensaje se genera dinámicamente
 
 ```python
@@ -70,6 +68,8 @@ message = f"""{header}\n\n{static_message}\n\n{details}\n\n{footer}\nBye"""
     <img src="img/imbox.png" alt="MASSACRE_SMTP_2" width="550" height="600">
 </div> <br><br> 
 
+---
+
 # 📊 MASSACRE TG SESSIONS
 
 Permite gestionar sesiones de Telegram y reportar usuarios o mensajes de canales automáticamente utilizando la biblioteca **Telethon**. Es ideal para automatizar tareas de reportes masivos con múltiples sesiones. 🔧
@@ -87,5 +87,8 @@ Permite gestionar sesiones de Telegram y reportar usuarios o mensajes de canales
 <div style="display: flex; justify-content: space-between; align-items: center;">
     <img src="img/term.png" alt="MASSACRE_SESSION" width="550" height="600">
     <img src="img/table.jpg" alt="MASSACRE_SESSION2" width="400" height="600">
-</div> <br><br> 
+</div>
 
+---
+
+# 🌐 SCRAPING WEB
