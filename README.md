@@ -91,4 +91,6 @@ Permite gestionar sesiones de Telegram y reportar usuarios o mensajes de canales
 
 ---
 
-# 🌐 SCRAPING WEB
+# 🌐  MASSACRE TG WEB
+
+ <img src="img/web.png" alt="MASSACRE_SESSION2">
