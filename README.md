@@ -13,7 +13,7 @@
 <div style="display: flex; justify-content: space-between; align-items: center;">
     <img src="img/letter.png" alt="MASSACRE_SMTP_1" width="400" height="600">
     <img src="img/imbox.png" alt="MASSACRE_SMTP_2" width="550" height="600">
-</div>
+</div> <br>
 
 
 
@@ -45,6 +45,8 @@
     Flexibilidad: Configuración personalizable para adaptarse a cualquier tipo de envío masivo.
     Confiabilidad: Verificación exhaustiva de servidores SMTP para garantizar la mejor experiencia posible.
     Transparencia: Registros claros y detallados para monitorear el desempeño del sistema.
+<br>
+<br>
 
 # 📊 SESSIONS
 Permite gestionar sesiones de Telegram y reportar usuarios o mensajes de canales automáticamente utilizando la biblioteca **Telethon**. Es ideal para automatizar tareas de reportes masivos con múltiples sesiones. 🔧
