@@ -39,6 +39,7 @@
 <br>
 <br>
 # 📊 SESSIONS
+
 Permite gestionar sesiones de Telegram y reportar usuarios o mensajes de canales automáticamente utilizando la biblioteca **Telethon**. Es ideal para automatizar tareas de reportes masivos con múltiples sesiones. 🔧
 
 ## 🚀 Características
@@ -51,12 +52,3 @@ Permite gestionar sesiones de Telegram y reportar usuarios o mensajes de canales
 | 📊 Tablas de resultados           | Muestra los resultados de los reportes en formato tabular. |
 | 🔐 Manejo de 2FA y baneos         | Identifica sesiones no autorizadas o baneadas. |
 
-
-
-## 🛠️ Contribuciones
-
-💡 ¡Las contribuciones son bienvenidas! Si tienes ideas para mejorar la herramienta o encuentras errores, por favor, abre un *issue* o envía un *pull request*. Juntos podemos hacer que Telegram Reporter sea más eficiente y robusto.
-
-## 📄 Licencia
-
-📝 Este proyecto está bajo la licencia MIT.
