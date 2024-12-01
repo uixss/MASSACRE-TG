@@ -62,6 +62,6 @@ message = f"""{header}\n\n{static_message}\n\n{details}\n\n{footer}\nBye"""
 <br>
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
-    <img src="img/letter.png" alt="MASSACRE_SMTP_1" width="400" height="500">
-    <img src="img/imbox.png" alt="MASSACRE_SMTP_2" width="425" height="500">
+    <img src="../img/letter.png" alt="MASSACRE_SMTP_1" width="400" height="500">
+    <img src="../img/imbox.png" alt="MASSACRE_SMTP_2" width="425" height="500">
 </div> <br><br> 
