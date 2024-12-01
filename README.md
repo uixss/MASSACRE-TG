@@ -41,7 +41,8 @@
 
 # 📊 SESSIONS
 
-Telegram Reporter es una herramienta avanzada para realizar reportes automatizados en Telegram, utilizando múltiples sesiones y proxies para mejorar la eficiencia y evitar bloqueos. Esta herramienta es ideal para manejar grandes volúmenes de reportes mientras se minimizan los riesgos de restricciones y bloqueos por parte de Telegram.
+Utilizando múltiples sesiones y proxies para mejorar la eficiencia y evitar bloqueos. E
+Esta herramienta es ideal para manejar grandes volúmenes de reportes mientras se minimizan los riesgos de restricciones y bloqueos por parte de Telegram.
 
 ## 🚀 Características
 
@@ -53,8 +54,6 @@ Telegram Reporter es una herramienta avanzada para realizar reportes automatizad
 - 👥 **Diferenciación de entidades**: Identifica si el objetivo es un canal, grupo o usuario y adapta la lógica de reporte en consecuencia. Si el objetivo es un canal o grupo, se obtiene y reporta a los administradores, además de los mensajes.
 
 ## 🔧 Funcionamiento Interno
-
-Telegram Reporter implementa un sistema basado en las siguientes lógicas:
 
 | Funcionalidad               | Descripción                                                                                                                                       |
 |-----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
