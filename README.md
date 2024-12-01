@@ -1,7 +1,6 @@
 # 🎫 Coding Services SEND DM 🎫
 
 # 📧 MASSACRE TG SMTP 
-## 🌟 Características Principales
 
 ### 🚀 Funcionalidades Clave
 
