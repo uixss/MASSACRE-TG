@@ -2,6 +2,17 @@
 
 # 📧 MASSACRE TG SMTP 
 
+Envio de reportes en masa al email@soporte
+
+    sms@telegram.org
+    dmca@telegram.org
+    abuse@telegram.org
+    sticker@telegram.org
+    stopCA@telegram.org
+    recover@telegram.org
+    support@telegram.org
+    security@telegram.org
+
 ### 🚀 Funcionalidades Clave
 
 - **🔍 Verificación SMTP**  
