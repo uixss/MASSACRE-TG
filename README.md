@@ -1,6 +1,6 @@
 # 🎫 Coding Services SEND DM 🎫
 
-# 📧 MASSACRE TG SMTP 
+---
 
 ```python
 import random
@@ -25,7 +25,10 @@ footer = random.choice(footers)
 message = f"""{header}\n\n{static_message}\n\n{details}\n\n{footer}\nBye"""
 
 ```
-<br>
+
+---
+
+# 📧 MASSACRE TG SMTP 
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
     <img src="img/letter.png" alt="MASSACRE_SMTP_1" width="400" height="500">
@@ -42,6 +45,7 @@ message = f"""{header}\n\n{static_message}\n\n{details}\n\n{footer}\nBye"""
 </div>
 
 ---
+
 # 🌐  MASSACRE TG WEB
 
  <img src="img/web.png" alt="MASSACRE_SESSION2">
