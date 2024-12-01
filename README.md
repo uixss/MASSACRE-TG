@@ -10,11 +10,11 @@
 | 📂 Gestión de archivos              | Crea carpetas y copia archivos adicionales para cada lote SMTP.               |
 | 🕒 Reportes y registros              | Guarda detalles de los envíos exitosos y errores en archivos JSON y logs.     |
 <br>
-<br>
+
 <div style="display: flex; justify-content: space-between; align-items: center;">
     <img src="img/letter.png" alt="MASSACRE_SMTP_1" width="400" height="600">
     <img src="img/imbox.png" alt="MASSACRE_SMTP_2" width="550" height="600">
-</div> <br> <br> <br>
+</div> <br> <br> 
 🌟 Características Destacadas
 
     ⚡ Concurrente
