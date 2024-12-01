@@ -2,11 +2,6 @@
 
 # 📧 MASSACRE TG SMTP
 
-Filtrar y utiliza servidores SMTP validos para el envío masivo de correos electrónicos.
-Utiliza autenticación segura y maneja reportes dinámicos para maximizar la eficiencia. 🚀
-
-## 🛠️ Funcionalidades
-
 | 🚩 Funcionalidad                     | 📋 Descripción                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------|
 | 🔍 Verificación SMTP                | Comprueba credenciales y conectividad de servidores SMTP.                     |
