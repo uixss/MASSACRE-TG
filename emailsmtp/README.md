@@ -1,4 +1,4 @@
-# 📧 SMTP Automation Project
+# 📧 MASSACRE TG SMTP
 
 Este proyecto permite verificar, filtrar y utilizar servidores SMTP para el envío masivo de correos electrónicos. Utiliza autenticación segura y maneja reportes dinámicos para maximizar la eficiencia. 🚀
 
