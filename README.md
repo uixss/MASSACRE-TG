@@ -2,8 +2,6 @@
 
 # 📧 MASSACRE TG SMTP
 
-![MASSACRE_SMTP](img/imbox.png)
-
 | 🚩 Funcionalidad                     | 📋 Descripción                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------|
 | 🔍 Verificación SMTP                | Comprueba credenciales y conectividad de servidores SMTP.                     |
@@ -11,6 +9,13 @@
 | ✉️ Envío de correos dinámico         | Genera y envía mensajes personalizados utilizando múltiples servidores.       |
 | 📂 Gestión de archivos              | Crea carpetas y copia archivos adicionales para cada lote SMTP.               |
 | 🕒 Reportes y registros              | Guarda detalles de los envíos exitosos y errores en archivos JSON y logs.     |
+
+<div style="display: flex; justify-content: space-between; align-items: center;">
+    <img src="img/letter.png" alt="MASSACRE_SMTP_1" width="400" height="300">
+    <img src="img/imbox.png" alt="MASSACRE_SMTP_2" width="400" height="300">
+</div>
+
+
 
 🌟 Características Destacadas
 
