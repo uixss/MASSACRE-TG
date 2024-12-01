@@ -1,6 +1,50 @@
 # 🎫 Coding Services SEND DM 🎫
 
-# 📊 MASSACRE-TG
+# 📧 MASSACRE TG SMTP
+
+Filtrar y utiliza servidores SMTP validos para el envío masivo de correos electrónicos.
+Utiliza autenticación segura y maneja reportes dinámicos para maximizar la eficiencia. 🚀
+
+## 🛠️ Funcionalidades
+
+| 🚩 Funcionalidad                     | 📋 Descripción                                                                 |
+|-------------------------------------|-------------------------------------------------------------------------------|
+| 🔍 Verificación SMTP                | Comprueba credenciales y conectividad de servidores SMTP.                     |
+| 🗂️ Agrupación de servidores         | Agrupa servidores válidos en lotes para facilitar la configuración.           |
+| ✉️ Envío de correos dinámico         | Genera y envía mensajes personalizados utilizando múltiples servidores.       |
+| 📂 Gestión de archivos              | Crea carpetas y copia archivos adicionales para cada lote SMTP.               |
+| 🕒 Reportes y registros              | Guarda detalles de los envíos exitosos y errores en archivos JSON y logs.     |
+
+🌟 Características Destacadas
+
+    ⚡ Concurrente
+    Utiliza un enfoque multihilo para procesar varios servidores SMTP al mismo tiempo,
+    aumentando significativamente la velocidad de operación. 
+
+    🧩 Personalización Avanzada
+    Genera mensajes dinámicos con detalles específicos de usuarios o entidades, 
+    lo que asegura que cada correo sea relevante y dirigido. 
+
+    🔄 Rotación Inteligente de Servidores
+    Maneja una lista rotativa de servidores SMTP, evitando bloqueos o saturaciones. 
+    Además, administra automáticamente una lista negra de servidores problemáticos. 
+
+    📈 Soporte para Escalabilidad
+    Diseñado para trabajar con grandes volúmenes de servidores SMTP y destinatarios, 
+    manteniendo el rendimiento y la fiabilidad. 
+
+    🗃️ Gestión de Reportes Completa
+    Almacena registros detallados de cada envío, lo que facilita el análisis posterior. 
+    incluyendo información del servidor utilizado, destinatarios, mensajes y resultados, 
+
+🚀 Beneficios
+
+    Mayor eficiencia: Procesa múltiples tareas simultáneamente y con menor tiempo de espera.
+    Flexibilidad: Configuración personalizable para adaptarse a cualquier tipo de envío masivo.
+    Confiabilidad: Verificación exhaustiva de servidores SMTP para garantizar la mejor experiencia posible.
+    Transparencia: Registros claros y detallados para monitorear el desempeño del sistema.
+
+# 📊 SESSIONS
 
 Telegram Reporter es una herramienta avanzada para realizar reportes automatizados en Telegram, utilizando múltiples sesiones y proxies para mejorar la eficiencia y evitar bloqueos. Esta herramienta es ideal para manejar grandes volúmenes de reportes mientras se minimizan los riesgos de restricciones y bloqueos por parte de Telegram.
 
@@ -33,30 +77,6 @@ Telegram Reporter implementa un sistema basado en las siguientes lógicas:
 - ⏳ **Flood Wait**: El uso excesivo de reportes puede resultar en un error de `Flood Wait`, bloqueando temporalmente la capacidad de la cuenta. Ajusta el delay para minimizar el riesgo.
 - 🔍 **Verificación de Proxies**: No todos los proxies obtenidos son válidos. La herramienta los verifica automáticamente antes de usarlos para garantizar su funcionalidad.
 
-
-
-## ⚙️ Requisitos
-
-- 🐍 **Python**: 3.8+
-- 📚 **Librerías necesarias**: 
-  - `telethon`: Para la interacción con la API de Telegram.
-  - `requests`: Para la gestión y verificación de proxies.
-  - `asyncio`: Para la ejecución asíncrona de tareas.
-
-## 📦 Instalación
-
-1. 🔧 **Clona este repositorio**:
-
-   ```sh
-   git clone https://github.com/tu_usuario/telegram-reporter.git
-   cd telegram-reporter
-   ```
-
-2. 📥 **Instala las dependencias**:
-
-   ```sh
-   pip install -r requirements.txt
-   ```
 
 ## 🛠️ Contribuciones
 
