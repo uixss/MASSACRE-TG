@@ -40,6 +40,17 @@
     Transparencia: Registros claros y detallados para monitorear el desempeño del sistema.
 
 # 📊 SESSIONS
+Permite gestionar sesiones de Telegram y reportar usuarios o mensajes de canales automáticamente utilizando la biblioteca **Telethon**. Es ideal para automatizar tareas de reportes masivos con múltiples sesiones. 🔧
+
+## 🚀 Características
+
+| Funcionalidad                     | Descripción                                      |
+|-----------------------------------|-------------------------------------------------|
+| 📂 Gestión de sesiones            | Carga y valida múltiples sesiones de Telegram. |
+| 🛡️ Reportes de usuarios           | Reporta usuarios específicos con diferentes razones. |
+| 📨 Reportes de mensajes           | Reporta mensajes recientes de canales o grupos. |
+| 📊 Tablas de resultados           | Muestra los resultados de los reportes en formato tabular. |
+| 🔐 Manejo de 2FA y baneos         | Identifica sesiones no autorizadas o baneadas. |
 
 
 
