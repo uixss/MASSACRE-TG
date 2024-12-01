@@ -11,8 +11,8 @@
 | 🕒 Reportes y registros              | Guarda detalles de los envíos exitosos y errores en archivos JSON y logs.     |
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
-    <img src="img/letter.png" alt="MASSACRE_SMTP_1" width="600" height="300">
-    <img src="img/imbox.png" alt="MASSACRE_SMTP_2" width="600" height="300">
+    <img src="img/letter.png" alt="MASSACRE_SMTP_1" width="400" height="600">
+    <img src="img/imbox.png" alt="MASSACRE_SMTP_2" width="400" height="600">
 </div>
 
 
