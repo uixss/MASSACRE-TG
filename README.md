@@ -2,6 +2,8 @@
 
 # 📧 MASSACRE TG SMTP
 
+![MASSACRE_SMTP](img/imbox.png)
+
 | 🚩 Funcionalidad                     | 📋 Descripción                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------|
 | 🔍 Verificación SMTP                | Comprueba credenciales y conectividad de servidores SMTP.                     |
