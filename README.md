@@ -59,7 +59,7 @@ message = f"""{header}\n\n{static_message}\n\n{details}\n\n{footer}\nBye"""
     <img src="img/imbox.png" alt="MASSACRE_SMTP_2" width="550" height="600">
 </div> <br><br> 
 
-# 📊 SESSIONS
+# 📊 MASSACRE TG SESSIONS
 
 Permite gestionar sesiones de Telegram y reportar usuarios o mensajes de canales automáticamente utilizando la biblioteca **Telethon**. Es ideal para automatizar tareas de reportes masivos con múltiples sesiones. 🔧
 
@@ -72,4 +72,9 @@ Permite gestionar sesiones de Telegram y reportar usuarios o mensajes de canales
 | 📨 Reportes de mensajes           | Reporta mensajes recientes de canales o grupos. |
 | 📊 Tablas de resultados           | Muestra los resultados de los reportes en formato tabular. |
 | 🔐 Manejo de 2FA y baneos         | Identifica sesiones no autorizadas o baneadas. |
+
+<div style="display: flex; justify-content: space-between; align-items: center;">
+    <img src="img/term.png" alt="MASSACRE_SESSION" width="400" height="600">
+    <img src="img/tabla.png" alt="MASSACRE_SESSION2" width="550" height="600">
+</div> <br><br> 
 
