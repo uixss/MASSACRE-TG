@@ -31,13 +31,16 @@ message = f"""{header}\n\n{static_message}\n\n{details}\n\n{footer}\nBye"""
     <img src="img/letter.png" alt="MASSACRE_SMTP_1" width="400" height="500">
     <img src="img/imbox.png" alt="MASSACRE_SMTP_2" width="425" height="500">
 </div> 
+
 ---
+
 # 📊 MASSACRE TG SESSIONS
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
     <img src="img/term.png" alt="MASSACRE_SESSION" width="425" height="500">
     <img src="img/table.jpg" alt="MASSACRE_SESSION2" width="400" height="500">
 </div>
+
 ---
 # 🌐  MASSACRE TG WEB
 
