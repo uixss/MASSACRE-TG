@@ -1,16 +1,100 @@
 # 📊 MASSACRE TG SESSIONS
 
-Permite gestionar sesiones de Telegram y reportar usuarios o mensajes de canales automáticamente utilizando la biblioteca **Telethon**. Es ideal para automatizar tareas de reportes masivos con múltiples sesiones. 🔧
+This project automates reporting users, channels, and groups on Telegram using multiple sessions. It loads session credentials, user lists, and configuration files to perform reports based on predefined criteria.
 
-## 🚀 Características
+## 🚀 Features
 
-| Funcionalidad                     | Descripción                                      |
-|-----------------------------------|-------------------------------------------------|
-| 📂 Gestión de sesiones            | Carga y valida múltiples sesiones de Telegram. |
-| 🛡️ Reportes de usuarios           | Reporta usuarios específicos con diferentes razones. |
-| 📨 Reportes de mensajes           | Reporta mensajes recientes de canales o grupos. |
-| 📊 Tablas de resultados           | Muestra los resultados de los reportes en formato tabular. |
-| 🔐 Manejo de 2FA y baneos         | Identifica sesiones no autorizadas o baneadas. |
+- **Multi-Session Management**: Supports multiple Telegram sessions for reporting.
+- **Automated User and Channel Reports**: Reports users and channels with specified reasons.
+- **Customizable Report Reasons**: Supports various report types like spam, fake, copyright, etc.
+- **Randomized Messaging**: Randomized report messages for variation.
+- **Error Handling**: Handles session errors like banned numbers and unauthorized access.
+
+## 📂 Project Structure
+```plaintext
+📁 sessions/        # Stores session files
+📄 vars.txt         # Pickled session credentials
+📄 report.json      # Configuration for report messages and types
+📄 main.json        # User list to report (ID and links)
+📄 script.py        # Main script
+```
+
+## 🛠️ Setup and Installation
+
+
+### Dependencies
+
+```bash
+pip install telethon tabulate
+```
+
+### Prepare Session Credentials
+Create a `vars.txt` file with session credentials:
+```plaintext
+(api_id, api_hash, phone_number)
+(api_id, api_hash, phone_number)
+```
+
+### Add Users to Report
+Create a `main.json` file:
+```json
+[
+  {
+    "status": "success",
+    "info": {
+      "id": 123456789,
+      "user": "@username"
+    }
+  }
+]
+```
+
+### 5. Configure Report Messages
+Create a `report.json` file with report reasons and messages:
+```json
+{
+  "SPAM": ["This is spam!", "Inappropriate content", "Unwanted messages"]
+}
+```
+
+## 🏃 Usage
+Run the script:
+```bash
+python script.py
+```
+
+The script will:
+1. Validate all sessions.
+2. Report users or channels based on `main.json`.
+3. Display the results in a tabular format.
+
+## 📈 Results
+Reports will be displayed in the terminal as a table:
+```
++-------------+-------------------+-----------+
+| Session     | User/Channel      | Report    |
++-------------+-------------------+-----------+
+| +1234567890 | @username         | SPAM      |
++-------------+-------------------+-----------+
+```
+
+## 📝 Notes
+- Ensure that `vars.txt`, `main.json`, and `report.json` exist before running the script.
+- Use valid Telegram API credentials for sessions.
+
+## ⚠️ Disclaimer
+This tool is for educational purposes only. Use responsibly and ensure compliance with Telegram's terms of service.
+
+## 🤝 Contributing
+Feel free to submit issues or pull requests to improve the project!
+
+## 🛡️ License
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+🌟 **Enjoy Automated Reporting!**
+
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
     <img src="../img/term.png" alt="MASSACRE_SESSION" width="425" height="500">
