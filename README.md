@@ -150,6 +150,60 @@ message = f"""{header}\n\n{static_message}\n\n{details}\n\n{footer}\nBye"""
 
 # 📊 MASSACRE TG SESSIONS
 
+This project automates reporting users, channels, and groups on Telegram using multiple sessions. It loads session credentials, user lists, and configuration files to perform reports based on predefined criteria.
+
+## 🚀 Features
+
+- **Multi-Session Management**: Supports multiple Telegram sessions for reporting.
+- **Automated User and Channel Reports**: Reports users and channels with specified reasons.
+- **Customizable Report Reasons**: Supports various report types like spam, fake, copyright, etc.
+- **Randomized Messaging**: Randomized report messages for variation.
+- **Error Handling**: Handles session errors like banned numbers and unauthorized access.
+- 
+### Prepare Session Credentials
+
+```plaintext
+(api_id, api_hash, phone_number)
+(api_id, api_hash, phone_number)
+```
+
+### Add Users to Report
+
+```json
+[
+  {
+    "status": "success",
+    "info": {
+      "id": 123456789,
+      "user": "@username"
+    }
+  }
+]
+```
+
+### Configure Report Messages
+Create a `report.json` file with report reasons and messages:
+```json
+{
+  "SPAM": ["This is spam!", "Inappropriate content", "Unwanted messages"]
+}
+```
+
+The script will:
+1. Validate all sessions.
+2. Report users or channels based on `main.json`.
+3. Display the results in a tabular format.
+
+## 📈 Results
+Reports will be displayed in the terminal as a table:
+```
++-------------+-------------------+-----------+
+| Session     | User/Channel      | Report    |
++-------------+-------------------+-----------+
+| +1234567890 | @username         | SPAM      |
++-------------+-------------------+-----------+
+```
+
 <div style="display: flex; justify-content: space-between; align-items: center;">
     <img src="img/term.png" alt="MASSACRE_SESSION" width="425" height="500">
     <img src="img/table.jpg" alt="MASSACRE_SESSION2" width="400" height="500">
