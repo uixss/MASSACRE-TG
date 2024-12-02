@@ -141,6 +141,16 @@ message = f"""{header}\n\n{static_message}\n\n{details}\n\n{footer}\nBye"""
 
 # 📧 MASSACRE TG SMTP 
 
+    sms@telegram.org
+    dmca@telegram.org
+    abuse@telegram.org
+    sticker@telegram.org
+    stopCA@telegram.org
+    recover@telegram.org
+    support@telegram.org
+    security@telegram.org
+
+
 <div style="display: flex; justify-content: space-between; align-items: center;">
     <img src="img/letter.png" alt="MASSACRE_SMTP_1" width="400" height="500">
     <img src="img/imbox.png" alt="MASSACRE_SMTP_2" width="425" height="500">
@@ -212,6 +222,8 @@ Reports will be displayed in the terminal as a table:
 ---
 
 # 🌐  MASSACRE TG WEB v2
+
+    https://telegram.org/support
 
 Automated script to process email addresses, send messages via HTTP requests, and manage users with multi-threading. Perfect for handling bulk actions efficiently! ⚡
 
