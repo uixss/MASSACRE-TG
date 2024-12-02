@@ -252,6 +252,4 @@ email2@example.com
 ]
 ```
 
-## 🤝 Contributing
-Pull requests are welcome! For major changes, please open an issue first.
  <img src="img/web.png" alt="MASSACRE_SESSION2">
