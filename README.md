@@ -101,6 +101,8 @@ async def process_entity(client, entity_input, admin_limit=100):
 
 ---
 
+# REPORT CONTENT
+
 ```python
 import random
 
