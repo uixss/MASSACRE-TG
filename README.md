@@ -211,7 +211,7 @@ Reports will be displayed in the terminal as a table:
 
 ---
 
-# 🌐  MASSACRE TG WEB
+# 🌐  MASSACRE TG WEB v2
 
 Automated script to process email addresses, send messages via HTTP requests, and manage users with multi-threading. Perfect for handling bulk actions efficiently! ⚡
 
