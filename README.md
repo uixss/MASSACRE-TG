@@ -1,8 +1,18 @@
 # 🎫 Coding Services SEND DM 🎫
 
-# USER DATA JSON
+## 📝 Requirements
 
-- Primero que nada en un txt poner una lista de usuarios - id  - links privados o publicos para procesarlos 
+- Python 3.8+
+- Telethon Library (`pip install telethon`)
+
+# 📡 Entity Processor
+
+Processes Telegram entities (users, channels, and groups) and saves detailed information in a JSON file.
+
+- 🛠️ Automatically loads or creates Telegram sessions.
+- 📂 Processes users, groups, and channels (public or private).
+- 📊 Retrieves member, admin, and statistical information.
+- 💾 Saves processed data to `valid_data.json`.
 
 ```python
 async def process_entity(client, entity_input, admin_limit=100):
