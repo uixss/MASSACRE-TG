@@ -15,18 +15,7 @@ Automated script to process email addresses, send messages via HTTP requests, an
 - Python 3.8+
 - Dependencies in `requirements.txt`
 
-### Installation
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/telegram-email-processor.git
-   cd telegram-email-processor
-   ```
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Ensure your data files are ready:
+. Ensure your data files are ready:
    - `emails.txt` for email addresses.
    - `report.json` for message data.
    - `main.json` for user details.
@@ -76,8 +65,4 @@ email2@example.com
   {"info": {"id": 1, "username": "user1"}, "status": "success"}
 ]
 ```
-
-## 🤝 Contributing
-Pull requests are welcome! For major changes, please open an issue first.
-
  <img src="../img/web.png" alt="MASSACRE_SESSION2">
