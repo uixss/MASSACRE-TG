@@ -159,7 +159,7 @@ This project automates reporting users, channels, and groups on Telegram using m
 - **Customizable Report Reasons**: Supports various report types like spam, fake, copyright, etc.
 - **Randomized Messaging**: Randomized report messages for variation.
 - **Error Handling**: Handles session errors like banned numbers and unauthorized access.
-- 
+
 ### Prepare Session Credentials
 
 ```plaintext
@@ -253,3 +253,12 @@ email2@example.com
 ```
 
  <img src="img/web.png" alt="MASSACRE_SESSION2">
+
+
+
+
+## ⚠️ Disclaimer
+This tool is for educational purposes only. Use responsibly and ensure compliance with Telegram's terms of service.
+
+## 🤝 Contributing
+Feel free to submit issues or pull requests to improve the project!
