@@ -9,6 +9,47 @@ Automated script to process email addresses, send messages via HTTP requests, an
 - **Email and User Processing** 📧
 - **JSON Configuration** 📄
 
+🎫 Coding Services SEND DM 🎫
+
+🌐 MASSACRE TG WEB v3
+
+Advanced email processing and messaging tool with improved efficiency, scalability, and security. Designed to handle large-scale operations seamlessly! 🚀
+🚀 What's New in Version 3?
+🌐 Automatic Proxy Validation
+
+    Real-time scraping and validation of proxies.
+    Configurable limits for valid proxies.
+    Support for multiple proxy types (HTTP, HTTPS).
+
+🌀 Asynchronous Processing
+
+    Implemented asyncio and aiohttp for enhanced performance.
+    Concurrent handling of GET and POST requests.
+
+🤖 Advanced User-Agent Generation
+
+    Wide variety of browser and operating system configurations.
+    Enhanced realism and adaptability for each request.
+
+🔄 Intelligent Proxy Distribution
+
+    Balanced distribution of email processing across valid proxies.
+
+📱 Multi-Country Phone Number Support
+
+    Automatic generation of phone numbers for 20+ countries.
+
+📝 Optimized Logging
+
+    Detailed logs for auditing with enriched formatting and configurable levels.
+
+📂 Key Features
+
+    Complete Automation: Perfect for managing high volumes of data and requests.
+    Enhanced Security: Proxy validation ensures anonymity and reliability.
+    Adaptability: Compatible with diverse data configurations and inputs.
+    JSON Flexibility: Configure messages, users, and emails using JSON files.
+
 ## 🛠️ Setup
 
 ### Requirements
