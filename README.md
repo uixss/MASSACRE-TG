@@ -213,4 +213,45 @@ Reports will be displayed in the terminal as a table:
 
 # 🌐  MASSACRE TG WEB
 
+Automated script to process email addresses, send messages via HTTP requests, and manage users with multi-threading. Perfect for handling bulk actions efficiently! ⚡
+
+## 📂 Features
+- **Dynamic User Agents** 🤖
+- **Multi-threading** 🧵
+- **Real-time Logging** 📝
+- **Email and User Processing** 📧
+- **JSON Configuration** 📄
+
+## 📦 File Structure
+| File/Folder    | Description                              |
+|----------------|------------------------------------------|
+| `emails.txt`   | List of email addresses to process.      |
+| `report.json`  | JSON containing messages (`SPAM` key).   |
+| `main.json`    | User details (`id`, `username`, etc.).   |
+| `results.log`  | Log file for process results.            |
+
+## 📧 Example Data
+
+### `emails.txt`
+```
+email1@example.com
+email2@example.com
+```
+
+### `report.json`
+```json
+{
+  "SPAM": ["Message 1", "Message 2"]
+}
+```
+
+### `main.json`
+```json
+[
+  {"info": {"id": 1, "username": "user1"}, "status": "success"}
+]
+```
+
+## 🤝 Contributing
+Pull requests are welcome! For major changes, please open an issue first.
  <img src="img/web.png" alt="MASSACRE_SESSION2">
