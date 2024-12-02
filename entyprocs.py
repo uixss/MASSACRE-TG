@@ -70,7 +70,6 @@ async def process_entity(client, entity_input, admin_limit=100):
                 },
             }
 
-        # Procesar canales o grupos
         elif isinstance(entity, types.Channel):
             full_chat = await client(functions.channels.GetFullChannelRequest(entity))
             chat_type = "public" if entity.username else "private"
@@ -96,8 +95,8 @@ async def process_entity(client, entity_input, admin_limit=100):
                     total_admins.extend([
                         {
                             "id": admin.user_id,
-                            "username": admin.user.first_name or "N/A",  # Nombre real del admin
-                            "user": f"@{admin.user.username or 'N/A'}",  # Identificador como @username
+                            "username": admin.user.first_name or "N/A",  
+                            "user": f"@{admin.user.username or 'N/A'}", 
                             "arorab": admin.rank if hasattr(admin, 'rank') else "N/A",
                             "link": f"https://t.me/{admin.user.username}" if admin.user.username else "N/A",
                         }
@@ -121,8 +120,6 @@ async def process_entity(client, entity_input, admin_limit=100):
                 "link": link,
                 "info": metadata,
             }
-
-        # Entidad desconocida
         else:
             return {"status": "unknown_entity", "input": entity_input, "link": link, "details": "Entity type not recognized"}
 
@@ -138,9 +135,6 @@ async def process_entity(client, entity_input, admin_limit=100):
         return {"status": "rpc_error", "link": "N/A", "details": str(e), "input": entity_input}
     except Exception as e:
         return {"status": "error", "link": "N/A", "details": str(e), "input": entity_input}
-
-
-# Función principal para verificar todos los datos con una sesión
 async def main():
     session = await load_or_create_session()
     user_data = load_user_data()
@@ -152,28 +146,21 @@ async def main():
         print("No se encontraron datos de usuarios para verificar.")
         return
 
-    api_id = '21267534'  # Reemplaza con tu API ID
-    api_hash = '0ffe3b9f8b7bf535c36ec568d0dafcac'  # Reemplaza con tu API Hash
+    api_id = ''  
+    api_hash = ''  
 
     client = TelegramClient(session, api_id, api_hash)
-
-    valid_data = []  # Lista para almacenar datos válidos
-
+    valid_data = []  
     async with client:
         for entity_input in user_data:
             print(f"Procesando: {entity_input}")
             data = await process_entity(client, entity_input)
-
-            valid_data.append(data)  # Agregar datos procesados a la lista
-
+            valid_data.append(data)  
             print(f"{entity_input}: {data}")
 
-    # Guardar los datos válidos en un archivo JSON
     with open('valid_data.json', 'w', encoding='utf-8') as f:
         json.dump(valid_data, f, ensure_ascii=False, indent=4)
-
     print(f"Datos válidos guardados en 'valid_data.json'.")
 
-# Ejecutar el script
 if __name__ == "__main__":
     asyncio.run(main())
