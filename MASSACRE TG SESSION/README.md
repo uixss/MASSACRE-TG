@@ -81,21 +81,14 @@ Reports will be displayed in the terminal as a table:
 - Ensure that `vars.txt`, `main.json`, and `report.json` exist before running the script.
 - Use valid Telegram API credentials for sessions.
 
+<div style="display: flex; justify-content: space-between; align-items: center;">
+    <img src="../img/term.png" alt="MASSACRE_SESSION" width="425" height="500">
+    <img src="../img/table.jpg" alt="MASSACRE_SESSION2" width="400" height="500">
+</div>
+
+
 ## ⚠️ Disclaimer
 This tool is for educational purposes only. Use responsibly and ensure compliance with Telegram's terms of service.
 
 ## 🤝 Contributing
 Feel free to submit issues or pull requests to improve the project!
-
-## 🛡️ License
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-🌟 **Enjoy Automated Reporting!**
-
-
-<div style="display: flex; justify-content: space-between; align-items: center;">
-    <img src="../img/term.png" alt="MASSACRE_SESSION" width="425" height="500">
-    <img src="../img/table.jpg" alt="MASSACRE_SESSION2" width="400" height="500">
-</div>
