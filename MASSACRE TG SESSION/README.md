@@ -21,7 +21,6 @@ This project automates reporting users, channels, and groups on Telegram using m
 
 ## 🛠️ Setup and Installation
 
-
 ### Dependencies
 
 ```bash
@@ -49,7 +48,7 @@ Create a `main.json` file:
 ]
 ```
 
-### 5. Configure Report Messages
+### Configure Report Messages
 Create a `report.json` file with report reasons and messages:
 ```json
 {
